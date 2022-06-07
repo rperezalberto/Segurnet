@@ -15,16 +15,10 @@ import { PropiedadesPolizaComponent } from './PropiedadesPolizaComponent';
 export const PolizaCotizaComponent = () => {
 
     const [checks, setChecks] = useState('');
-    const [active, setActive] = useState(false);
 
     const checkRadio = (e) => {
         const dat = e.target.value;
         setChecks(dat);
-
-
-
-
-        // console.log(checks);
     }
 
 

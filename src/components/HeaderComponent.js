@@ -11,11 +11,11 @@ export const HeaderComponent = () => {
         //   Header
         <header className='header container'>
             <div className='header__content'>
-                <Link to="/"><img src={bg} className="header_bg" /></Link>
+                <Link to="/"><img src={bg} className="header_bg" alt-text='Segurnet'/></Link>
 
                 <div className='header__content_menu'>
                     <div className='header_bg_menu' onClick={shoMenu}>
-                        <img src={bg_menu}  />
+                        <img src={bg_menu} alt-text='Menu' />
                     </div>
 
                 </div>
@@ -32,7 +32,7 @@ export const HeaderComponent = () => {
                 </ul>
 
                 <div className='header__content_headphone'>
-                    <img src={headphone} />
+                    <img src={headphone} alt-text='headphone'/>
                     <div className='asistencia'>
                         <p className='asistencia__title'>¿Necesitas asistencia?</p>
                         <p className='asistencia__phone'>809-620-2524</p>

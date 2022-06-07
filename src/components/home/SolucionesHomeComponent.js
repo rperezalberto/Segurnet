@@ -16,7 +16,7 @@ export const SolucionesHomeComponent = () => {
                 </div>
 
                 <div className='card_soluciones'>
-                    <img  src={servCorporativo}/>
+                    <img  src={servCorporativo} alt-text='Corporativo'/>
                     <div className='card_content'>
                         <hr className='hr' />
                         <h4><spna className='txtBold'>Desarollamos</spna> productos de seguros para <span className='txtBold txtSegu'> LA VENTA EN GRANDES VOLÚMENES</span>.</h4>

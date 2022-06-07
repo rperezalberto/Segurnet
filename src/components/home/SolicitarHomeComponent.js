@@ -12,7 +12,7 @@ export const SolicitarHomeComponent = () => {
 
         <div className='solicitar__card'>
             <div className='card__content'>
-                <img src={web} />
+                <img src={web} alt-text='Web'/>
                 <p className='card__title'>Página Web</p>
                 <p className='card__subtitle'>Ofrecemos el servicio de cotización de Póliza en linea de una manera facil y rapida. Tan solo tienes que clicar en el botón "Cotiza ahora"</p>
                 <div className='card_link'>
@@ -21,13 +21,13 @@ export const SolicitarHomeComponent = () => {
             </div>
 
             <div className='card__content pl'>
-                <img src={llamanos} />
+                <img src={llamanos} alt-text='Llamanos'/>
                 <p className='card__title'>Llamada, correo o Whatsapp</p>
                 <p className='card__subtitle'>Estamos disponibles a través de distintas plataformas para brindarte el mejor de los servicios. Anímate a escribirnos a <spanp className="txtSegu" type="email">info@segurnet.com.do</spanp> igualmente puedes llamarnos al: <spanp className="txtSegu">809-620-2524</spanp> o mejor escríbenos por <spanp className="txtSegu">whatsApp!</spanp></p>
             </div>
 
             <div className='card__content'>
-                <img className='segurnet' src={segurnet} />
+                <img className='segurnet' src={segurnet} alt-text='Segurnet'/>
                 <p className='card__title'>Visitándonos en nuestra oficina</p>
                 <p className='card__subtitle'>También puedes visitarnos en nuestra oficina ubicada en la <spanp className="txtSegu">Calle Viriato Fiallo #24, Santo Domingo.</spanp> Horario: <spanp className="txtSegu">Lunes a Viernes de 8:00 a.m. a 5:30 p.m. y los Sábados de 8:00 a.m. a 12:30 p.m.</spanp></p>
                 <div className='card_link'>

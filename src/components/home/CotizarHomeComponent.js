@@ -15,21 +15,21 @@ export const CotizarHomeComponent = () => {
         <div className='cotizar__content'>
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segcar} />
+                    <img src={segcar} alt-text='Car'/>
                 </div>
                 <p>Seguros de Vehículos</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segSalud} />
+                    <img src={segSalud} alt-text='Salud'/>
                 </div>
                 <p>Seguros de Salud</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segViaj} />
+                    <img src={segViaj} alt-text='Viaje'/>
                 </div>
                 <p>Seguros de Viajes</p>
             </div>
@@ -43,21 +43,21 @@ export const CotizarHomeComponent = () => {
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segHogar} />
+                    <img src={segHogar} alt-text='Hogar'/>
                 </div>
                 <p>Seguros de Propiedades</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segMasi} />
+                    <img src={segMasi} alt-text='Seguros'/>
                 </div>
                 <p>Seguros Masivos</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segCorp} />
+                    <img src={segCorp} alt-text='Corporativos'/>
                 </div>
                 <p>Seguros Corporativos</p>
             </div>

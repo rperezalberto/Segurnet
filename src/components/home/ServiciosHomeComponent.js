@@ -31,7 +31,7 @@ export const ServiciosHomeComponent = () => {
 
 
                 <div>
-                    <img src={servPersonales} alt-text='Personales'/>
+                    <img src={servPersonales} alt='Personales'/>
                 </div>
 
             </div>

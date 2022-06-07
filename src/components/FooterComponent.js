@@ -27,17 +27,17 @@ export const FooterComponent = () => {
                     </div>
 
                     <div className='footer_seguNet'>
-                        <img src={SegurnetBlanco} alt-text='Seguro'/>
+                        <img src={SegurnetBlanco} alt='Seguro'/>
                     </div>
 
                     <div className='footer_cont_social'>
                         <div className='footer__social'>
                             <h4>SEGURNETRD</h4>
-                            <Link to='#'><img src={fb} alt-text='Facebook' /></Link>
-                            <Link to='#'><img src={ig} alt-text='Instagram'/></Link>
+                            <Link to='#'><img src={fb} alt='Facebook' /></Link>
+                            <Link to='#'><img src={ig} alt='Instagram'/></Link>
                         </div>
                         <div className='footer__uaf'>
-                            <img src={UAF002187D39} alt-text='UAF002187D39'/>
+                            <img src={UAF002187D39} alt='UAF002187D39'/>
                         </div>
                     </div>
                 </div>

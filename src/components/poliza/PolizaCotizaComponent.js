@@ -47,7 +47,7 @@ export const PolizaCotizaComponent = () => {
                         <label htmlFor="car" className='poliza__select_content'>
                             <input type="radio" name='check' id="car" value='car' onChange={(e) => checkRadio(e)} />
                             <div className='poliza_input'>
-                                <img src={car} alt-text='Carro'/>
+                                <img src={car} alt='Carro'/>
                                 <div className='poliza__title'>
                                     <p>
                                         <label htmlFor="car">Vehiculos</label>
@@ -59,7 +59,7 @@ export const PolizaCotizaComponent = () => {
                         <label htmlFor="health" className='poliza__select_content'>
                             <input type="radio" name='check' id="health" value='health' onChange={(e) => checkRadio(e)} />
                             <div className='poliza_input'>
-                                <img src={health} alt-text='Salud'/>
+                                <img src={health} alt='Salud'/>
                                 <div className='poliza__title'>
                                     <p>
                                         <label htmlFor="health">Salud</label>
@@ -71,7 +71,7 @@ export const PolizaCotizaComponent = () => {
                         <label htmlFor="travel" className='poliza__select_content'>
                             <input type="radio" name='check' id="travel" value='travel' onChange={(e) => checkRadio(e)} />
                             <div className='poliza_input'>
-                                <img src={travel} alt-text='Viajes'/>
+                                <img src={travel} alt='Viajes'/>
                                 <div className='poliza__title'>
                                     <p>
                                         <label htmlFor="travel">Viajes</label>
@@ -83,7 +83,7 @@ export const PolizaCotizaComponent = () => {
                         <label htmlFor="family" className='poliza__select_content'>
                             <input type="radio" name='check' id="family" value='family' onChange={(e) => checkRadio(e)} />
                             <div className='poliza_input'>
-                                <img src={family} alt-text='Familia'/>
+                                <img src={family} alt='Familia'/>
                                 <div className='poliza__title'>
                                     <p>
                                         <label htmlFor="family">Vida</label>
@@ -95,7 +95,7 @@ export const PolizaCotizaComponent = () => {
                         <label htmlFor="home" className='poliza__select_content'>
                             <input type="radio" name='check' id="home" value='home' onChange={(e) => checkRadio(e)} />
                             <div className='poliza_input'>
-                                <img src={home} alt-text='Propiedades'/>
+                                <img src={home} alt='Propiedades'/>
                                 <div className='poliza__title'>
                                     <p>
                                         <label htmlFor="home">Propiedades</label>

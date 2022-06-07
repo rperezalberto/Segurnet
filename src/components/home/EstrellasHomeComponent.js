@@ -5,7 +5,7 @@ export const EstrellasHomeComponent = () => {
   return (
     <section className='estrellas container'>
         <div className='estrellas__content'>
-            <img src={estrellas} alt-text='Estrellas'/>
+            <img src={estrellas} alt='Estrellas'/>
             <h5>El 95% de nuestros clientes nos han calificado como una empresa de 5 estrellas en Google</h5>
         </div>
     </section>

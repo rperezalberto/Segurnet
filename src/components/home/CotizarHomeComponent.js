@@ -15,21 +15,21 @@ export const CotizarHomeComponent = () => {
         <div className='cotizar__content'>
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segcar} alt-text='Car'/>
+                    <img src={segcar} alt='Car'/>
                 </div>
                 <p>Seguros de Vehículos</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segSalud} alt-text='Salud'/>
+                    <img src={segSalud} alt='Salud'/>
                 </div>
                 <p>Seguros de Salud</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segViaj} alt-text='Viaje'/>
+                    <img src={segViaj} alt='Viaje'/>
                 </div>
                 <p>Seguros de Viajes</p>
             </div>
@@ -43,21 +43,21 @@ export const CotizarHomeComponent = () => {
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segHogar} alt-text='Hogar'/>
+                    <img src={segHogar} alt='Hogar'/>
                 </div>
                 <p>Seguros de Propiedades</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segMasi} alt-text='Seguros'/>
+                    <img src={segMasi} alt='Seguros'/>
                 </div>
                 <p>Seguros Masivos</p>
             </div>
 
             <div className='cotizar__content_servi'>
                 <div className='cotizar__content_bg'>
-                    <img src={segCorp} alt-text='Corporativos'/>
+                    <img src={segCorp} alt='Corporativos'/>
                 </div>
                 <p>Seguros Corporativos</p>
             </div>

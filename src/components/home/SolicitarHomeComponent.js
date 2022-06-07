@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import web from '../../assets/img/web.png';
 import llamanos from '../../assets/img/llamanos.png';
 import segurnet from '../../assets/img/segurnet.png';
@@ -16,7 +17,7 @@ export const SolicitarHomeComponent = () => {
                 <p className='card__title'>Página Web</p>
                 <p className='card__subtitle'>Ofrecemos el servicio de cotización de Póliza en linea de una manera facil y rapida. Tan solo tienes que clicar en el botón "Cotiza ahora"</p>
                 <div className='card_link'>
-                  <button>Cotiza ahora</button>
+                  <Link to='./cotiza'>Cotiza ahora</Link>
                 </div>
             </div>
 
@@ -31,7 +32,7 @@ export const SolicitarHomeComponent = () => {
                 <p className='card__title'>Visitándonos en nuestra oficina</p>
                 <p className='card__subtitle'>También puedes visitarnos en nuestra oficina ubicada en la <spanp className="txtSegu">Calle Viriato Fiallo #24, Santo Domingo.</spanp> Horario: <spanp className="txtSegu">Lunes a Viernes de 8:00 a.m. a 5:30 p.m. y los Sábados de 8:00 a.m. a 12:30 p.m.</spanp></p>
                 <div className='card_link'>
-                    <button type='sutmib'>Ver mapa</button>
+                    <a href="https://www.google.com/maps/place/SEGURNET/@18.4704778,-69.9478584,17z/data=!3m1!4b1!4m5!3m4!1s0x8eaf891590277269:0x20770620ef407958!8m2!3d18.4704727!4d-69.9456697?shorturl=1" target="_blank">Ver mapa</a>
                 </div>
             </div>
 

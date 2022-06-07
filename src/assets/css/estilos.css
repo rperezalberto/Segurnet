@@ -230,11 +230,18 @@ a {
     width: 25%;
     cursor: pointer;
 }
+.cotizar__content_servi a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
 
 .cotizar__content_servi img {
     margin: 0 auto;
     width: 45px;
     height: 40px;
+    
 }
 
 .cotizar__content_servi p {
